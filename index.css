@@ -1,0 +1,132 @@
+body {
+    margin-top: 12%;
+    background: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    height: 425px;
+    margin: auto;
+    background: darkblue;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-top: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+#home{
+    margin-left: 34px;
+}
+
+#guest {
+    margin-left: 29px;
+}
+
+#left {
+    margin-left: 20px;
+}
+
+#right {
+    margin-right : 20px;
+}
+
+#scoreHome {
+    width: 185px;
+    height: 135px;
+    background: black;
+}
+
+#scoreGuest {
+    width: 185px;
+    height: 135px;
+    background: black;
+}
+
+.add1 {
+    width: 45px;
+    height: 45px;
+    color: white;
+    background: darkblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.add1:hover {
+    background: grey;
+}
+
+#num-home {
+    width: 200px;
+    height: 150px;
+    background: black;
+    color: red;
+    font-size: 105px;
+}
+
+#num-guest {
+    width: 200px;
+    height: 150px;
+    background: black;
+    color: red;
+    font-size: 105px;
+}
+
+#buttonsL, #buttonsR {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+}
+
+.reset {
+    margin-top: 138px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 3px 16px 3px 14px;
+    font-size: 19px;
+    background: darkblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.reset:hover {
+    background: red;
+    color: black;
+    border: 1px solid black;
+}
+
+.resetH {
+    margin-bottom: 33px;
+    margin-left: 11px;
+    padding: 5px 9px 5px 9px;
+    background: darkblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.resetH:hover {
+    background: grey;
+}
+
+.resetG {
+    margin-bottom: 55px;
+    margin-left: 10px;
+    padding: 5px 9px 5px 9px;
+    background: darkblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.resetG:hover {
+    background: grey;
+}
