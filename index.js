@@ -11,32 +11,32 @@ let resultG = document.getElementById("num-guest");
 let resetALL = document.getElementsByClassName("reset");
 
 function add1 () {
-    numH = numH + 1;
+    numH += 1;
     resultH.textContent = numH;
 }
 
 function add2 () {
-    numH = numH + 2;
+    numH += 2;
     resultH.textContent = numH;
 }
 
 function add3 () {
-    numH = numH + 3;
+    numH += 3;
     resultH.textContent = numH;
 }
 
 function add11 () {
-    numG = numG + 1;
+    numG += 1;
     resultG.textContent = numG;
 }
 
 function add21 () {
-    numG = numG + 2;
+    numG += 2;
     resultG.textContent = numG;
 }
 
 function add31 () {
-    numG = numG + 3;
+    numG += 3;
     resultG.textContent = numG;
 }
 
@@ -48,11 +48,11 @@ function reset() {
 }
 
 function reset1H() {
-    resultH.textContent = numH - 1;
-    numH = numH - 1;
+    resultH.textContent -= 1;
+    numH -= 1;
 }
 
 function reset1G() {
-    resultG.textContent = numG - 1;
-    numG = numG - 1;
+    resultG.textContent -= 1;
+    numG -= 1;
 }
