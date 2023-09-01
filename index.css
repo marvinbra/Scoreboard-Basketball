@@ -67,17 +67,7 @@ h1 {
     background: grey;
 }
 
-#num-home {
-    width: 200px;
-    height: 150px;
-    background: black;
-    color: red;
-    font-size: 105px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-#num-guest {
+.num {
     width: 200px;
     height: 150px;
     background: black;
