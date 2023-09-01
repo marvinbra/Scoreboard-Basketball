@@ -3,6 +3,10 @@ body {
     background: grey;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -69,6 +73,8 @@ h1 {
     background: black;
     color: red;
     font-size: 105px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #num-guest {
@@ -77,6 +83,8 @@ h1 {
     background: black;
     color: red;
     font-size: 105px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #buttonsL, #buttonsR {
